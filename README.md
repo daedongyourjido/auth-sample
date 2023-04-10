@@ -15,7 +15,7 @@ axios.post('https://wtdhqxavjk.execute-api.us-east-2.amazonaws.com/auth/', {
 - success
 ```
 body: JSON.stringify({
-                // 암호화 토근
+                // 암호화 토큰
                 token: hmacDigest,
                 // 사용자 정보
                 id: ID,
