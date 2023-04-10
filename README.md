@@ -14,14 +14,14 @@ axios.post('https://wtdhqxavjk.execute-api.us-east-2.amazonaws.com/auth/', {
 #### response body
 - success
 ```
-body: JSON.stringify({
-                // 암호화 토큰
-                token: hmacDigest,
-                // 사용자 정보
-                id: ID,
-                password: PASSWORD,
-                name: NAME
-            })
+body: {
+      // 암호화 토큰
+      token: hmacDigest,
+      // 사용자 정보
+      id: ID,
+      password: PASSWORD,
+      name: NAME
+    }
 ```
 - fail
 
