@@ -1,6 +1,6 @@
 # 대동유어지도 로그인
 
-#### api endpoint: https://wtdhqxavjk.execute-api.us-east-2.amazonaws.com/auth/
+#### api endpoint: https://wtdhqxavjk.execute-api.us-east-2.amazonaws.com/auth/2023-h-capstone-auth
 
 #### signiture(axios)
 
